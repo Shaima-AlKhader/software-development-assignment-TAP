@@ -1,0 +1,264 @@
+@font-face {
+    font-family: MyFont;
+    src: url(/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: headFont;
+    src: url(/Poppins/Poppins-Bold.ttf);
+}
+*{
+    margin:0 ;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family:MyFont;
+}
+nav{
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 45px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+    font-size:20px;
+}
+nav ul li a{
+    margin: 0 7px;
+}
+nav ul li:nth-of-type(1), .Home{
+    color:#D1884F;
+}
+main{
+    margin: 60px;
+}
+.container{
+    width: 65%;
+    float: left;
+}
+aside{
+    width: 25%;
+    float: right;
+}
+aside img{
+    width: 100%;
+    height: 100%;
+    border-radius:0 0 0 50%;
+    box-shadow: -20px 10px 5px -2px #3BBADB;
+}
+main section span{
+    color:#3BBADB;
+    font-size:25px;
+    font-family: MyFont;
+}
+main section h1{
+    color: #008AAA;
+    font-family: headFont;
+    font-size:60px;
+    line-height: 110%;
+    margin-top: 20px;
+}
+main section h1 span{
+    color:#D1884F;
+    font-family: headFont;
+    font-size:60px;
+}
+article p{
+    font-size:20px;
+    font-family: MyFont;
+    margin-top: 30px;
+    font-weight: bold;
+}
+article p a{
+    color:#3BBADB;
+}
+footer {
+  margin: 400px 60px;
+  font-size:20px;
+  font-family: MyFont;
+}
+footer a:nth-of-type(1){
+    margin-right: 20px;
+    background-color: #008AAA;
+    color: white;
+    padding:5px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px  5px -2px #008AAA;
+}
+footer a:nth-of-type(2){
+    margin-right: 20px;
+    padding:5px 20px;
+    border-radius: 10px;
+    border: 2px solid #008AAA;
+    color: #008AAA; 
+}
+
+/*responsive*/
+@media (min-width:800px) and (max-width: 1279px) {
+    nav ul{
+        margin-right: 15px;
+    }
+    main{
+        margin: 30px;
+    }
+    main section span{
+        font-size:20px;
+    }
+    main section h1{
+        font-size:40px;
+        margin-top: 20px;
+    }
+    main section h1 span{
+        font-size:40px;
+    }
+    article p{
+        font-size:15px;
+        font-family: MyFont;
+        margin-top: 30px;
+        font-weight: bold;
+    }
+    footer {
+        margin: 310px 30px;
+        font-size:15px;
+    }
+    
+}
+@media (min-width: 650px) and (max-width: 799.99px) { 
+    nav ul{
+        margin-right: 15px;
+    }
+    nav ul li{
+        font-size:15px;
+    }
+   
+    main{
+        margin: 30px;
+    }
+    main section span{
+        font-size:20px;
+    }
+    main section h1{
+        font-size:30px;
+        margin-top: 20px;
+    }
+    main section h1 span{
+        font-size:40px;
+    }
+    article p{
+        font-size:13px;
+        margin-top: 30px;
+    }
+    aside{
+        width: 30%;
+    }
+    aside img{
+        height: 250px;
+    }
+    footer {
+        margin: 300px 20px;
+        font-size:15px;
+    }
+}
+@media (min-width:  481px) and (max-width:649.99px) { 
+    nav ul{
+        margin-right: 20px;
+    }
+    nav ul li{
+        font-size:15px;
+    }
+    main{
+        margin: 20px;
+    }
+    main section span{
+        font-size:15px;
+    }
+    main section h1{
+        font-size:25px;
+        margin-top: 20px;
+    }
+    main section h1 span{
+        font-size:25px;
+    }
+    article p{
+        font-size:10px;
+        margin-top: 30px;
+    }
+    aside{
+        width: 30%;
+    }
+    aside img{
+        height: 250px;
+        box-shadow: -10px 5px 5px -2px #3BBADB;
+    }
+    footer {
+        margin: 250px 20px;
+        font-size:10px;
+    }
+    footer a:nth-of-type(1){
+        margin-right: 20px;
+        padding:5px 20px;
+        border-radius: 7px;
+        box-shadow: 0 5px  5px -2px #008AAA;
+    }
+    footer a:nth-of-type(2){
+        margin-right: 20px;
+        padding:5px 20px;
+        border-radius: 7px;
+    }
+    
+}
+@media (min-width: 300px) and (max-width:481px) { 
+    nav ul{
+        margin-right:10px;
+    }
+    nav ul li{
+        font-size:10px;
+    }
+    main{
+        margin: 10px;
+    }
+    main section span{
+        font-size:12px;
+    }
+    main section h1{
+        font-size:20px;
+        margin-top: 20px;
+    }
+    main section h1 span{
+        font-size:20px;
+    }
+    article p{
+        font-size:10px;
+        margin-top: 30px;
+    }
+    aside{
+        width: 30%;
+    }
+    aside img{
+        height: 200px;
+        box-shadow: -10px 5px 5px -2px #3BBADB;
+    }
+    footer {
+        margin: 250px 20px;
+        font-size:10px;
+    }
+    footer a:nth-of-type(1){
+        margin-right: 20px;
+        padding:3px 15px;
+        border-radius: 7px;
+        box-shadow: 0 5px  5px -2px #008AAA;
+    }
+    footer a:nth-of-type(2){
+        margin-right: 20px;
+        padding:3px 15px;
+        border-radius: 7px;
+    }
+    
+}
